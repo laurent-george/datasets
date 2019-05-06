@@ -61,8 +61,7 @@ TESTS_REQUIRE = [
 ]
 
 print("TEST")
-import ipdb
-ipdb.set_trace()
+print(f"sys.version_info.major: {sys.version_info.major}")
 if sys.version_info.major == 3:
   # Packages only for Python 3
   pass
