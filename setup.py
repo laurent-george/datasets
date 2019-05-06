@@ -60,6 +60,9 @@ TESTS_REQUIRE = [
     'pytest',
 ]
 
+print("TEST")
+import ipdb
+ipdb.set_trace()
 if sys.version_info.major == 3:
   # Packages only for Python 3
   pass
